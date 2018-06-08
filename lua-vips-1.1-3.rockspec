@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-vips"
-version = "1.1-2"
+version = "1.1-3"
 
 -- LuaDist source
 source = {
-  tag = "1.1-2",
+  tag = "1.1-3",
   url = "git://github.com/LuaDist-testing/lua-vips.git"
 }
 -- Original source
