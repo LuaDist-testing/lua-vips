@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "lua-vips"
-version = "1.1-4"
+version = "1.1-5"
 
 -- LuaDist source
 source = {
-  tag = "1.1-4",
+  tag = "1.1-5",
   url = "git://github.com/LuaDist-testing/lua-vips.git"
 }
 -- Original source
@@ -32,6 +32,8 @@ build = {
    type = "builtin",
    modules = {
        vips = "src/vips.lua",
+       ["vips.verror"] = "src/vips/verror.lua",
+       ["vips.version"] = "src/vips/version.lua",
        ["vips.log"] = "src/vips/log.lua",
        ["vips.gvalue"] = "src/vips/gvalue.lua",
        ["vips.vobject"] = "src/vips/vobject.lua",
